@@ -13,6 +13,7 @@ const CurrencyConverter = () => {
     setConvertedAmount(null); // Clear result when swapping
   };
 
+<<<<<<< HEAD
   const handleAmountChange = (e) => {
     setAmount(e.target.value);
     setConvertedAmount(null); // Clear result when amount changes
@@ -20,6 +21,10 @@ const CurrencyConverter = () => {
 
   const handleConvert = async () => {
     if (!amount || isNaN(amount)) return;
+=======
+  const handleConvert = async () => {
+    if (!amount) return;
+>>>>>>> 18c2d13979de8c1d20f0db380c0f3e041abae408
     
     try {
       const response = await fetch(
@@ -38,7 +43,11 @@ const CurrencyConverter = () => {
       <input
         type="number"
         value={amount}
+<<<<<<< HEAD
         onChange={handleAmountChange}
+=======
+        onChange={(e) => setAmount(e.target.value)}
+>>>>>>> 18c2d13979de8c1d20f0db380c0f3e041abae408
         placeholder="Enter Amount"
       />
       <div className="currency-select">
