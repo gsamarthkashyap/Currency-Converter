@@ -7,16 +7,10 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
     "@testing-library/user-event": "^13.5.0",
-<<<<<<< HEAD
     "postcss": "^8.5.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scripts": "^5.0.1",
-=======
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-scripts": "5.0.1",
->>>>>>> 18c2d13979de8c1d20f0db380c0f3e041abae408
     "web-vitals": "^2.1.4"
   },
   "scripts": {
