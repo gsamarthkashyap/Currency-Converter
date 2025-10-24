@@ -2,7 +2,7 @@ import requests
 import os
 from django.http import JsonResponse
 
-API_KEY = os.getenv("EXCHANGE_API_KEY")
+API_KEY = "503e7ef2e71e7014781a5a28"
 EXCHANGE_RATE_API_URL = f"https://v6.exchangerate-api.com/v6/{API_KEY}/latest/USD"
 
 def convert_currency(request):
